@@ -1,0 +1,37 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Car_Maker__c",
+                "referenceId": "Car_Maker__cRef1"
+            },
+            "Name": "Toyota",
+            "Founded__c": "1937-08-28",
+            "Founder__c": "Kiichiro Toyoda",
+            "Number_of_employees__c": 370870,
+            "Website__c": "http://toyota-global.com/"
+        },
+        {
+            "attributes": {
+                "type": "Car_Maker__c",
+                "referenceId": "Car_Maker__cRef2"
+            },
+            "Name": "General Motors",
+            "Founded__c": "1908-09-22",
+            "Founder__c": "William C. Durant",
+            "Number_of_employees__c": 173000,
+            "Website__c": "http://www.gm.com/"
+        },
+        {
+            "attributes": {
+                "type": "Car_Maker__c",
+                "referenceId": "Car_Maker__cRef3"
+            },
+            "Name": "Honda",
+            "Founded__c": "1948-09-24",
+            "Founder__c": "Soichiro Honda",
+            "Number_of_employees__c": 215785,
+            "Website__c": "http://world.honda.com/"
+        }
+    ]
+}

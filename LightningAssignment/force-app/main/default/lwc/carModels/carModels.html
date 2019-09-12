@@ -1,0 +1,15 @@
+<template>
+    <template if:true={areModels}>
+            <header class="slds-modal__header">
+                <h2>Car Models</h2>
+            </header>
+            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
+                <lightning-datatable 
+                key-field="Id" 
+                data={carModels} 
+                columns={modelColumns}
+                hide-checkbox-column="true">
+                </lightning-datatable>
+            </div>
+    </template>
+</template>

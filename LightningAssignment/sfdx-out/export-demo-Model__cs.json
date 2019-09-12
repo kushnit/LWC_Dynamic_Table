@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Model__c",
+                "referenceId": "Model__cRef1"
+            },
+            "Name": "Toyota Corolla",
+            "Class__c": "Mid-size car",
+            "Horsepower__c": 139,
+            "Maker__c": "@Car_Maker__cRef1",
+            "MPG__c": "31",
+            "Price__c": 19500
+        },
+        {
+            "attributes": {
+                "type": "Model__c",
+                "referenceId": "Model__cRef2"
+            },
+            "Name": "Camry",
+            "Class__c": "Compact car",
+            "Horsepower__c": 203,
+            "Maker__c": "@Car_Maker__cRef1",
+            "MPG__c": "29 in city",
+            "Price__c": 22000
+        },
+        {
+            "attributes": {
+                "type": "Model__c",
+                "referenceId": "Model__cRef3"
+            },
+            "Name": "Honda Accord",
+            "Class__c": "Full-size car",
+            "Horsepower__c": 252,
+            "Maker__c": "@Car_Maker__cRef3",
+            "MPG__c": "30",
+            "Price__c": 23720
+        }
+    ]
+}

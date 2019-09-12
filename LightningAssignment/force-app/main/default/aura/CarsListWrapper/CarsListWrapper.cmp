@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <!-- <aura:attribute name="channel" type="String" default="Car_Insert__e"/> -->
+    
+    <aura:attribute name="eventMessage" type="Object"/>
+    <aura:attribute name="showHide" type="Boolean" default="true"/>
+    <lightning:empApi aura:id="empApi"/>    
+    <aura:handler name="init" value="{!this}" action="{!c.subscribe}" />
+    <aura:if isTrue="{!v.showHide}">
+        <c:carMakersList aura:id="carMakersMessage" event-message="{!v.eventMessage}" onrecordinsert="{!c.handlerecordInsert}"></c:carMakersList>
+    </aura:if>
+</aura:component>

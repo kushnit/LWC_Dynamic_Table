@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Car_Maker__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export-demo-Car_Maker__cs.json"
+        ]
+    },
+    {
+        "sobject": "Model__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export-demo-Model__cs.json"
+        ]
+    }
+]

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class__c</fullName>
+    <externalId>false</externalId>
+    <label>Class</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City car</fullName>
+                <default>false</default>
+                <label>City car</label>
+            </value>
+            <value>
+                <fullName>Subcompact car</fullName>
+                <default>false</default>
+                <label>Subcompact car</label>
+            </value>
+            <value>
+                <fullName>Compact car</fullName>
+                <default>false</default>
+                <label>Compact car</label>
+            </value>
+            <value>
+                <fullName>Mid-size car</fullName>
+                <default>false</default>
+                <label>Mid-size car</label>
+            </value>
+            <value>
+                <fullName>Entry-level luxury car</fullName>
+                <default>false</default>
+                <label>Entry-level luxury car</label>
+            </value>
+            <value>
+                <fullName>Full-size car</fullName>
+                <default>false</default>
+                <label>Full-size car</label>
+            </value>
+            <value>
+                <fullName>Mid-size luxury car</fullName>
+                <default>false</default>
+                <label>Mid-size luxury car</label>
+            </value>
+            <value>
+                <fullName>Full-size luxury</fullName>
+                <default>false</default>
+                <label>Full-size luxury</label>
+            </value>
+            <value>
+                <fullName>Personal luxury car</fullName>
+                <default>false</default>
+                <label>Personal luxury car</label>
+            </value>
+            <value>
+                <fullName>Grand tourer</fullName>
+                <default>false</default>
+                <label>Grand tourer</label>
+            </value>
+            <value>
+                <fullName>Supercar</fullName>
+                <default>false</default>
+                <label>Supercar</label>
+            </value>
+            <value>
+                <fullName>Convertible</fullName>
+                <default>false</default>
+                <label>Convertible</label>
+            </value>
+            <value>
+                <fullName>Roadster</fullName>
+                <default>false</default>
+                <label>Roadster</label>
+            </value>
+            <value>
+                <fullName>Mini MPV</fullName>
+                <default>false</default>
+                <label>Mini MPV</label>
+            </value>
+            <value>
+                <fullName>Compact MPV</fullName>
+                <default>false</default>
+                <label>Compact MPV</label>
+            </value>
+            <value>
+                <fullName>Minivan</fullName>
+                <default>false</default>
+                <label>Minivan</label>
+            </value>
+            <value>
+                <fullName>Subcompact SUV</fullName>
+                <default>false</default>
+                <label>Subcompact SUV</label>
+            </value>
+            <value>
+                <fullName>Compact SUV</fullName>
+                <default>false</default>
+                <label>Compact SUV</label>
+            </value>
+            <value>
+                <fullName>Mid-size SUV</fullName>
+                <default>false</default>
+                <label>Mid-size SUV</label>
+            </value>
+            <value>
+                <fullName>Full-size SUV</fullName>
+                <default>false</default>
+                <label>Full-size SUV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

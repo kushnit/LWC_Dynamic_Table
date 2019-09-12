@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/carMakersList": [
+                "carMakersList/carMakersList.js"
+            ],
+            "c/carMakersWithPlatformEvents": [
+                "carMakersWithPlatformEvents/carMakersWithPlatformEvents.js"
+            ],
+            "c/carModels": [
+                "carModels/carModels.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/lWC_Platform_Events": [
+                "lWC_Platform_Events/lWC_Platform_Events.js"
+            ],
+            "c/recordForm": [
+                "recordForm/recordForm.js"
+            ],
+            "c/renderRecords": [
+                "renderRecords/renderRecords.js"
+            ],
+            "c/wrapper": [
+                "wrapper/wrapper.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

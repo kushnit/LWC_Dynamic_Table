@@ -1,0 +1,49 @@
+<template>
+    <lightning-card title="List of Car Makers" icon-name='picklist_type'>
+        <template if:true={areMakers}>
+            <lightning-datatable 
+                key-field="Id" 
+                data={carMakers} 
+                columns={columns}
+                hide-checkbox-column="true"
+                onrowaction={handleRowAction}>
+            </lightning-datatable>            
+        </template>
+    </lightning-card>
+
+    <template if:true={openModal}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <h2>Car Maker Details</h2>
+                    </header>
+
+                    <!-- TO DISPLAY LIST OF CAR MAKER RECORD DATA -->
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <template if:true={openModal}>
+                                <lightning-record-view-form
+                                        record-id={makerId}
+                                        object-api-name="Car_Maker__c">
+                                    <div class="slds-box">
+                                        <lightning-output-field field-name="Name">
+                                        </lightning-output-field>
+                                        <lightning-output-field field-name="Founded__c">
+                                        </lightning-output-field>
+                                        <lightning-output-field field-name="Founder__c"></lightning-output-field>
+                                        <lightning-output-field field-name="Number_of_employees__c"></lightning-output-field>
+                                        <lightning-output-field field-name="Website__c"></lightning-output-field>
+                                    </div>
+                                </lightning-record-view-form>
+                        </template>
+                    </div>
+                    <!-- TO DISPLAY LIST OF CHILD RECORDS -->
+                    <c-car-models maker-id={makerId}></c-car-models>
+
+                    <footer class="slds-modal__header">
+                        <lightning-button label="Close" variant="brand" onclick={closeModal}></lightning-button>
+                    </footer>
+                </div>                
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>
